@@ -5,7 +5,6 @@
  * @requires modules/OptionHandler
  */
 
-import * as RandomTips from "/common/modules/RandomTips/RandomTips.js";
 import * as AddonSettings from "/common/modules/AddonSettings/AddonSettings.js";
 import * as AutomaticSettings from "/common/modules/AutomaticSettings/AutomaticSettings.js";
 

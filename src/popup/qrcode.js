@@ -7,8 +7,6 @@
  */
 "use strict";
 
-import * as RandomTips from "/common/modules/RandomTips/RandomTips.js";
-
 import "./modules/InitQrCode.js";
 
 RandomTips.init().then(() => {

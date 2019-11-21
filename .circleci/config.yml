@@ -10,8 +10,6 @@ jobs:
     docker:
       - image: circleci/node:latest
     steps:
-      - checkout
-      - run: cat .babelrc
       - run: npm install
       - run: npm test
 workflows:

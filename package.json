@@ -15,6 +15,8 @@
     "@babel/node": "^7.7.0",
     "@babel/preset-env": "^7.7.1",
     "@babel/register": "^7.7.0",
+    "@istanbuljs/nyc-config-babel": "^2.1.1",
+    "babel-plugin-istanbul": "^5.2.0",
     "chai": "^4.2.0",
     "cypress": "^3.6.0",
     "mocha": "^6.2.2",
@@ -23,7 +25,7 @@
     "sinon": "^7.5.0"
   },
   "scripts": {
-    "test": "nyc mocha --require @babel/register"
+    "test": "nyc mocha"
   },
   "repository": {
     "type": "git",

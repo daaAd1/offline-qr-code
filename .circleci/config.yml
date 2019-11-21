@@ -11,6 +11,7 @@ jobs:
       - image: circleci/node:latest
     steps:
       - checkout
+      - run: cat .babelrc
       - run: npm install
       - run: npm test
 workflows:
@@ -18,4 +19,6 @@ workflows:
   build_and_test:
     jobs:
       - build
-      - test
+      - test:
+        requires:
+          - build

@@ -14,3 +14,9 @@ before_install:
 language: node_js
 node_js:
   - "stable"
+notifications:
+  email:
+    recipients:
+      - samuelsepesi@gmail.com
+    on_success: never
+    on_failure: always
